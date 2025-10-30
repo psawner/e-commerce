@@ -75,13 +75,13 @@ Finalizes the purchase, records user info, and clears cart.
 ## screeshots
 
 ### Home Page
-![Home Page](./images/home.png)
+![Home Page](./src/assets/images/home.png)
 
 ### Cart
-![Cart](././images/cart.png)
+![Cart](./src/assets/images/cart.png)
 
 ### added to cart
-![Added to Cart](././images/addcart.png)
+![Added to Cart](./src/assets/images/addcart.png)
 
 ### Checkout
-![Checkout](./images/checkout.png)
+![Checkout](./src/assets/images/checkout.png)
