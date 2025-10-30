@@ -75,13 +75,13 @@ GET /api/products
 ## screeshots
 
 ### Home Page
-![Home Page](src/assets/images/home.png)
+![Home Page](https://github.com/psawner/e-commerce/blob/main/src/images/home.png)
 
 ### Cart
-![Cart](src/assets/images/cart.png)
+![Cart](https://github.com/psawner/e-commerce/blob/main/src/images/cart.png)
 
 ### added to cart
-![Added to Cart](src/assets/images/addcart.png)
+![Added to Cart](https://github.com/psawner/e-commerce/blob/main/src/images/addcart.png)
 
 ### Checkout
-![Checkout](src/assets/images/checkout.png)
+![Checkout](https://github.com/psawner/e-commerce/blob/main/src/images/checkout.png)
