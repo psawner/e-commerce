@@ -4,14 +4,14 @@ Users can view products, add them to the cart, remove items, and perform a check
 
 ## Features
 
-View all products
-Add product to cart
-Remove items from cart
-Checkout (with user name & email)
-Automatically clears cart after checkout
-Persistent total calculation using SQLite
+- View all products
+- Add product to cart
+- Remove items from cart
+- Checkout (with user name & email)
+- Automatically clears cart after checkout
+- Persistent total calculation using SQLite
 
-
+```bash
 ecommerce-app/
 │
 ├── backend/
@@ -32,56 +32,56 @@ ecommerce-app/
 │   └── package.json
 │
 └── README.md
-
+```
 
 ## Backend Setup (Node.js + Express + SQLite)
-Navigate to backend folder:
-cd backend
-Install dependencies:
-npm install express sqlite sqlite3 cors
-Start the server:
-node server.js
-Server runs on:
-http://localhost:3001
+- Navigate to backend folder:
+- cd backend
+- Install dependencies:
+- npm install express sqlite sqlite3 cors
+- Start the server:
+- node server.js
+- Server runs on:
+- http://localhost:3001
 
 ## Frontend Setup (React)
-Navigate to frontend folder:
-cd frontend
-Install dependencies:
-npm install
-Start the React app:
-npm start
-Frontend runs on:
-http://localhost:5173
+- Navigate to frontend folder:
+- cd frontend
+- Install dependencies:
+- npm install
+- Start the React app:
+- npm start
+- Frontend runs on:
+- http://localhost:5173
 
 ## API Routes Summary
 Products
 GET /api/products
-Returns all available products.
+-Returns all available products.
 
-GET /api/cart
-Returns list of cart items + total price.
+### GET /api/cart
+- Returns list of cart items + total price.
 
-POST /api/cart
-Adds item to cart.
+### POST /api/cart
+- Adds item to cart.
 
-DELETE /api/cart/:product_id
-Removes specific item from the cart.
+### DELETE /api/cart/:product_id
+- Removes specific item from the cart.
 
-Checkout
-POST /api/checkout
-Finalizes the purchase, records user info, and clears cart.
+### Checkout
+- POST /api/checkout
+- Finalizes the purchase, records user info, and clears cart.
 
 ## screeshots
 
 ### Home Page
-![Home Page](./src/assets/images/home.png)
+![Home Page](src/assets/images/home.png)
 
 ### Cart
-![Cart](./src/assets/images/cart.png)
+![Cart](src/assets/images/cart.png)
 
 ### added to cart
-![Added to Cart](./src/assets/images/addcart.png)
+![Added to Cart](src/assets/images/addcart.png)
 
 ### Checkout
-![Checkout](./src/assets/images/checkout.png)
+![Checkout](src/assets/images/checkout.png)
